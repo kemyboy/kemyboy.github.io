@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+<title>KemyBoy</title>
+<link rel="icon" href="icon.png">
+<!-- <meta charset="iso-8859-1"> -->
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+
+
+
+	<br>
+	<center>
+	<img src="boot.png"></img>
+
+	</center>
+	<br>
+
+<div class="wrapper row1">
+  <header id="header" class="clear">
+   <center> <h1><font color="white">Uma aventura no mundo da Química</font></h1></center>
+
+  </header>
+</div>
+
+<br>
+
+
+<br>
+
+<center>
+<div class="w3-content w3-section" style="max-width:640px">
+  <img class="mySlides" src="img1.png" style="width:100%">
+  <img class="mySlides" src="img2.png" style="width:100%">
+  <img class="mySlides" src="img3.png" style="width:100%">
+  <img class="mySlides" src="img4.png" style="width:100%">
+  <img class="mySlides" src="img5.png" style="width:100%">
+
+  <img class="mySlides" src="img6.png" style="width:100%">
+  <img class="mySlides" src="img7.png" style="width:100%">
+  <img class="mySlides" src="img8.png" style="width:100%">
+  <img class="mySlides" src="img9.png" style="width:100%">
+  <img class="mySlides" src="img10.png" style="width:100%">
+
+  <img class="mySlides" src="img11.png" style="width:100%">
+  <img class="mySlides" src="img12.png" style="width:100%">
+  <img class="mySlides" src="img13.png" style="width:100%">
+  <img class="mySlides" src="img14.png" style="width:100%">
+  <img class="mySlides" src="img15.png" style="width:100%">
+
+  <img class="mySlides" src="img16.png" style="width:100%">
+  <img class="mySlides" src="img17.png" style="width:100%">
+  <img class="mySlides" src="img18.png" style="width:100%">
+  <img class="mySlides" src="img19.png" style="width:100%">
+  <img class="mySlides" src="img20.png" style="width:100%">
+
+  <img class="mySlides" src="img21.png" style="width:100%">
+  <img class="mySlides" src="img22.png" style="width:100%">
+  <img class="mySlides" src="img23.png" style="width:100%">
+
+</div>
+
+</center>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 6000); // Change image every 6 seconds
+}
+</script>
+
+
+<br>
+
+<!-- ####################################################################################################### -->
+<div class="wrapper row2">
+
+<div id="container" class="clear">
+	<br>
+  <h2>Sobre</h2>
+  <br>
+</div>
+
+  <div id="container" class="clear">
+
+
+	<p>KemyBoy é um jogo digital que tem como objetivo auxiliar o Ensino de Química na educação básica. </p><br>
+	<p>Ele faz parte de uma pesquisa de doutorado que investiga a aprendizagem decorrente do uso desses materiais.</p><br>
+    <h2>Alguns dos princípios fundamentais da Química abordados pelo jogo:</h2>
+    <ul>
+      <li><font color="black">A natureza corpuscular da Matéria</font></li>
+      <li><font color="black">Energia</font></li>
+      <li><strike>Constituição microscópica da matéria</strike></li>
+      <li><strike>Estados físicos e classificação</strike></li>
+      <li><strike>Transformações da matéria</strike></li>
+      <li><font color="black">Estrutura do átomo </font></li>
+      <li><font color="black">Tabela periódica</font></li>
+      <li><strike>Equações Químicas</strike></li>
+      <li><strike>Ligações Químicas</strike></li>
+
+    </ul>
+
+<p>Este trabalho está em constante mudança e novos conteúdos, assim como novos materiais, poderão aparecer ao longo do tempo. Sugestões sempre são bem vindas.</p>
+<br><br><br>
+
+  </div>
+
+    <div id="container" class="clear">
+	<center>
+
+	<h2>Downloads</h2>
+	<br><br>
+
+
+  	<a class="button" href="#popup1"><img src="linux-logo.svg" height="64" width="64"></img>Linux</a>
+  	<div id="popup1" class="overlay">
+
+	<div class="popup">
+		<!--<img src="linux-logo.svg" height="64" width="64">Linux</img> -->
+		<a class="close" href="#">x</a>
+		<div class="content">
+			<p><h1 style="color:#000000">Para a versão Debian/Ubuntu (32/64 bits).</h1></p>
+			<br>
+			<br><a href = ""><img src="box.png" height="64" width="64"></img><br>Download</a> <br>
+
+		</div>
+	</div>
+	</div>
+
+	<a class="button" href="#popup2"><img src="windows-logo.svg" height="64" width="64"></img>Windows</a>
+
+	<div id="popup2" class="overlay">
+	<div class="popup">
+		<!-- <img src="windows-logo.svg" height="64" width="64">Windows</img></a> -->
+		<a class="close" href="#">x</a>
+		<div class="content">
+			<p><h1 style="color:#000000">Para a Windows 7 e 10 (32/64 bits).</h1></p>
+			<br>
+			<br><a href = ""><img src="box.png" height="64" width="64"></img><br>Download</a> <br>
+
+		</div>
+	</div>
+	</div>
+
+	<a class="button" href="#popup3"><img src="android-logo.svg" height="64" width="64"></img>Android</a>
+	<div id="popup3" class="overlay">
+	<div class="popup">
+		<!-- <img src="android-logo.svg" height="64" width="64">Android</img> -->
+		<a class="close" href="#">x</a>
+		<div class="content">
+			<p><h1 style="color:#000000">Para a versão Android 5.0 ou superior.</h1></p>
+			<br>
+			<br><a href = ""><img src="box.png" height="64" width="64"></img><br>Download</a> <br>
+
+
+			<br><br>
+			<a href = "">Problemas para instalar ?</a>
+		</div>
+	</div>
+	</div>
+
+	</div>
+	<br><br>
+	</center>
+
+
+
+
+<br>
+
+<p>
+
+Com o objetivo de auxiliar o professor que deseja mediar o seu trabalho pedagógico com o uso deste jogo, colocamos à disposição algumas sugestões de trabalho. Como não há uma só maneira de trabalhar com os jogos, esperamos que os professores sugiram novas formas de trabalho. Ficou à disposição para auxílio.
+
+</p>
+
+<br><br>
+<center>
+
+<div id="container" class="clear">
+  <h2>Para os professores</h2><br>
+
+<table style="border-spacing: 50px">
+  <tr>
+    <th><a href="#popup4"><img src="pista_g.png" height="64" width="64"></img><br>Material<br> Pedagógico</a></th>
+     <th><a href="#popup4"><img src="lamp.png" height="64" width="64"></img><br>Trabalhos <br> Acadêmicos</a></th>
+    <th><a href="#popup4"><img src="k7.png" height="64" width="64"></img><br>Teorias da Aprendizagem<br>e Jogos Digitais</a></th>
+  </tr>
+</table>
+
+  <!-- <a href="#popup4"><img src="pista_g.png" height="64" width="64">Material Pedagógico</img></a> -->
+  <!-- <a href="#popup4"><img src="lamp.png" height="64" width="64">Trabalhos Acadêmicos</img></a> -->
+  <!-- <a href="#popup4"><img src="k7.png" height="64" width="64">Teoria da Aprendizagem Multimídia</img></a> -->
+
+	<div id="popup4" class="overlay">
+	<div class="popup">
+		<!-- <img src="windows-logo.svg" height="64" width="64">Windows</img></a> -->
+
+		<center><p><h1 style="color:#000000">Material de apoio pedagógico</h1></p></center><br><br>
+		<a class="close" href="#">x</a>
+		<div class="content">
+			<center>
+			<a href="#popup4"><img src="professor.png">Sobre os conteúdos trabalhados e o Currículo de Química</img></a><br><br>
+			<a href="#popup4"><img src="professor.png">Sugestões para trabalho em sala de aula</img></a><br><br>
+			<a href="#popup4"><img src="professor.png">Sugestões para avaliação</img></a><br><br>
+			</center>
+
+		</div>
+	</div>
+	</div>
+<br><br>
+</div>
+
+</div>
+</center>
+<br>
+
+
+
+
+<!-- ####################################################################################################### -->
+
+<div class="wrapper row3">
+  <footer id="footer" class="clear">
+    <h1></h1>
+    <p class="fl_left"> <a href="#">KemyBoy</a></p>
+    <p class="fl_right"><a href="#popup_contato">Manoel Guerreiro</a></p>
+    
+    
+    
+    
+  </footer>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+  	<div id="popup_contato" class="overlay">
+
+	<div class="popup">
+		<!--<img src="linux-logo.svg" height="64" width="64">Linux</img> -->
+		<a class="close" href="#">x</a>
+		<!-- <div class="box"> -->
+			<center>
+
+
+		  <p><h1 style="color:#000000">Dúvidas, sugestões ?</h1></p>
+		  <br>
+
+
+			<p>
+			Entre em contato pelos e-mails: <br><br>
+			<font color="black">m164832@g.unicamp.br</font>
+			<br>
+			ou
+			<br>
+			<font color="black">manoelguerreiro@yahoo.com.br</font>
+
+			<br><br>
+			Obrigado pela colaboração !
+			</p>
+			</center>
+
+		<!-- </div> -->
+	</div>
+	</div>
+
+
+
+<div class="wrapper row1">
+  <header id="header" class="clear">
+   <center><h1><img src="uc.png" height="64" width="64"></img><br><div align=center><a href=''><img src='https://contador.s12.com.br/img-W1Z18z21w01015A4-36.gif' border='0' alt='contador free'></a><script type='text/javascript' src='https://contador.s12.com.br/ad.js?id=W1Z18z21w01015A4'></script></div></h1></center>
+
+  </header>
+</div>
+</body>
+</html>
